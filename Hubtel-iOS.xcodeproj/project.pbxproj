@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		98C2EDC2268E164C00706E69 /* AccountOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2EDC1268E164C00706E69 /* AccountOption.swift */; };
+		B21A1881268E5D3B00F0474E /* AccountOptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21A1880268E5D3B00F0474E /* AccountOptionViewModel.swift */; };
+		B21A1884268E5D7300F0474E /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21A1883268E5D7300F0474E /* Option.swift */; };
+		B21A1888268E5DBE00F0474E /* AccountOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21A1887268E5DBE00F0474E /* AccountOption.swift */; };
 		B2FF1BE9268DECE6001F5840 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FF1BE8268DECE6001F5840 /* AppDelegate.swift */; };
 		B2FF1BEB268DECE6001F5840 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FF1BEA268DECE6001F5840 /* SceneDelegate.swift */; };
 		B2FF1BED268DECE6001F5840 /* HTProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FF1BEC268DECE6001F5840 /* HTProfileVC.swift */; };
@@ -20,7 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		98C2EDC1268E164C00706E69 /* AccountOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountOption.swift; sourceTree = "<group>"; };
+		B21A1880268E5D3B00F0474E /* AccountOptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountOptionViewModel.swift; sourceTree = "<group>"; };
+		B21A1883268E5D7300F0474E /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		B21A1887268E5DBE00F0474E /* AccountOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountOption.swift; sourceTree = "<group>"; };
 		B2FF1BE5268DECE6001F5840 /* Hubtel-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hubtel-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FF1BE8268DECE6001F5840 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2FF1BEA268DECE6001F5840 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +52,9 @@
 		98C2EDC0268E163400706E69 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				98C2EDC1268E164C00706E69 /* AccountOption.swift */,
+				B21A1880268E5D3B00F0474E /* AccountOptionViewModel.swift */,
+				B21A1883268E5D7300F0474E /* Option.swift */,
+				B21A1887268E5DBE00F0474E /* AccountOption.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -190,11 +196,13 @@
 			files = (
 				B2FF1C00268DF069001F5840 /* HTHeaderCell.swift in Sources */,
 				B2FF1BED268DECE6001F5840 /* HTProfileVC.swift in Sources */,
+				B21A1884268E5D7300F0474E /* Option.swift in Sources */,
+				B21A1881268E5D3B00F0474E /* AccountOptionViewModel.swift in Sources */,
 				B2FF1BE9268DECE6001F5840 /* AppDelegate.swift in Sources */,
 				B2FF1C0D268E0A29001F5840 /* HTProfileBodyCell.swift in Sources */,
-				98C2EDC2268E164C00706E69 /* AccountOption.swift in Sources */,
 				B2FF1BEB268DECE6001F5840 /* SceneDelegate.swift in Sources */,
 				B2FF1C03268DF1B3001F5840 /* HTImageView.swift in Sources */,
+				B21A1888268E5DBE00F0474E /* AccountOption.swift in Sources */,
 				B2FF1C0A268DF387001F5840 /* HTNameLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

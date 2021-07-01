@@ -11,17 +11,17 @@ class HTProfileVC: UIViewController {
 
     lazy var tableView: UITableView = {
         let tableView = UITableView(frame: .zero, style: .plain)
-        tableView.separatorStyle = .none
+        tableView.separatorStyle  = .singleLine
         tableView.backgroundColor = .clear
-        tableView.separatorColor = .clear
+        tableView.separatorColor  =  .clear
         tableView.allowsMultipleSelection = false
         tableView.showsVerticalScrollIndicator = false
-        tableView.delegate = self
+        tableView.delegate   = self
         tableView.dataSource = self
         tableView.register(HTProfileBodyCell.self, forCellReuseIdentifier: HTProfileBodyCell.reuseId)
-        tableView.bounces = false
+        tableView.bounces    = false
         tableView.alwaysBounceVertical = false
-        tableView.separatorStyle = .singleLine
+        tableView.separatorStyle       = .singleLine
         return tableView
     }()
 
@@ -100,6 +100,4 @@ extension HTProfileVC: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         return UIView()
     }
-    
-    
 }
