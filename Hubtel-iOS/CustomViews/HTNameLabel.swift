@@ -21,4 +21,5 @@ class HTNameLabel: UILabel {
 //        textAlignment = textAlignment
 //        //self.font          = UIFont(descriptor: UIFontDescriptor, size: <#T##CGFloat#>)
 //    }
+
 }
